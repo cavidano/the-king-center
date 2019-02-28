@@ -9,20 +9,6 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/.gitattributes",
-		"oF": 0
-		},
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
 	"/article-centered.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1360,6 +1346,39 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/feature/03.jpg": {
+		"ft": 16384,
+		"iS": 61344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/feature/03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/feature/04.jpg": {
+		"ft": 16384,
+		"iS": 30317,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/feature/04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/feature/05.jpg": {
+		"ft": 16384,
+		"iS": 475555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/feature/05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/feature/bridge-lights.jpg": {
 		"ft": 16384,
 		"iS": 109996,
@@ -1649,6 +1668,61 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/tour/01.jpg": {
+		"ft": 16384,
+		"iS": 321976,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tour/01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/tour/02.jpg": {
+		"ft": 16384,
+		"iS": 304590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tour/02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/tour/03.jpg": {
+		"ft": 16384,
+		"iS": 404683,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tour/03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/tour/04.jpg": {
+		"ft": 16384,
+		"iS": 505685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tour/04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/tour/05.jpg": {
+		"ft": 16384,
+		"iS": 456020,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tour/05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index-02.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1761,13 +1835,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/README.html",
-		"oF": 0
 		},
 	"/README.md": {
 		"cB": 0,
