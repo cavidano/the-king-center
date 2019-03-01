@@ -1,29 +1,4 @@
 $(document).ready(function () {
-
-    ////////////////////////////////////////
-    // Mutation observer - watch for RTL
-    ////////////////////////////////////////
-
-    var target = document.querySelector('html');
-
-    var observer = new MutationObserver( function(mutations) {
-        mutations.forEach( function() {
-            var classes = target.getAttribute('class');
-            var single_class = 'translated-rtl';
-            if (classes.includes(single_class)) {
-                target.setAttribute('dir', 'rtl');
-            } else {
-                target.setAttribute('dir', 'ltr');
-            }
-        });
-    });
-
-    var config = {
-        attributes: true,
-        attributeFilter: ['class']
-    }
-    
-    observer.observe(target, config);
     
     ////////////////////////////////////////
     // Language and Search Toggles Shown
@@ -51,17 +26,6 @@ $(document).ready(function () {
 
     $('#global-language').on('show.bs.collapse', function () {
         $('#global-search').collapse('hide');
-    });
-
-    ////////////////////////////////////////
-    // Google Translate Links
-    ////////////////////////////////////////
-
-    $('.lang-select').click(function () {
-        var theLang = jQuery(this).attr('data-lang');
-        $('.goog-te-combo').val(theLang);
-        window.location = $(this).attr('href');
-        location.reload();
     });
 
     ////////////////////////////////////////
