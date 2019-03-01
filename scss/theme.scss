@@ -116,3 +116,12 @@ body{ @extend .f-serif; }
         }
     }
 }
+
+#newsletter-sign-up{
+
+    .input-group{
+        overflow: hidden;
+        @extend .rounded;
+        @extend .shadow;
+    }
+}
