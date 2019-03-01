@@ -28,7 +28,6 @@ In this file:
 
 // Put anything you want here
 
-
 .f-sans-serif{ font-family: 'Oswald', sans-serif; }
 .f-serif { font-family: 'PT Serif', serif; }
 
@@ -39,9 +38,7 @@ In this file:
 #nav-primary .nav-link
 { @extend .f-sans-serif; }
 
-body{
-    @extend .f-serif; 
-}
+body{ @extend .f-serif; }
 
 // Navigation
 

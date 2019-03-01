@@ -110,7 +110,7 @@ $container-max-widths: (
   sm: ($container-max-width-sm),
   md: ($container-max-width-md),
   lg: ($container-max-width-lg),
-  xl: ($container-max-width-xl)
+  xl: ($container-max-width-xl),
   xxl: ($container-max-width-xxl)
 );
 
@@ -350,7 +350,7 @@ $list-group-item-padding-x: $input-btn-padding-x;
 // M. Box shadows
 //////////////////////////////////////// 
 
-$box-shadow-opacity: 0.125;
+$box-shadow-opacity: 0.2;
 
 $box-shadow-sm: 0 0 .5rem rgba( $black, $box-shadow-opacity );
 $box-shadow:    0 0 1rem rgba( $black, $box-shadow-opacity );
