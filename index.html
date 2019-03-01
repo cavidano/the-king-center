@@ -34,10 +34,10 @@
             <div class="container-fluid wide">
 
                 <!-- row 01 -->
-                <div class="row align-items-center py-2">
+                <div class="row align-items-center">
                     
                     <div class="col-lg">
-                        <div class="d-flex justify-content-center justify-content-lg-start align-items-center">
+                        <div class="d-flex justify-content-center justify-content-lg-start align-items-center py-2">
                             <a href="#" title="Home">
                                 <img src="./images/the-king-center-logo.svg" alt="NYC Generic Logo">
                             </a>
@@ -48,18 +48,19 @@
                     <div class="col-lg-auto">
 
                         <!-- row 02 -->
-                        <div class="row justify-content-between">
+                        <div class="row">
 
                             <!-- Menu Toggle -->
-                            <div class="col-auto d-lg-none">
+                            <div class="col d-lg-none">
 
-                                <button class="no-btn-style" type="button" data-toggle="collapse" data-target="#device-menu"
+                                <div class="offset-gutter-x">
+
+                                <button class="btn btn-block btn-lg btn-primary text-center" type="button" data-toggle="collapse" data-target="#device-menu"
                                     aria-controls="device-menu" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="d-flex align-items-center">
                                         <span class="fas fa-bars fs-lg" role="img"></span>
-                                        <span class="px-2 fs-rg">Menu</span>
-                                    </span>
                                 </button>
+                                </div>
+
 
                             </div>
                             <!-- .col -->
@@ -226,7 +227,7 @@
 
         <div id="device-menu" class="primary-navigation-device collapse d-lg-none">
             
-            <nav class="nav d-flex flex-column py-3" role="navigation">
+            <nav class="nav d-flex flex-column py-3 bg-dark" role="navigation">
 
                 <div class="nav-item dropdown">
 
@@ -355,7 +356,7 @@
                                     <p>
                                         We embrace Dr. King’s philosophy and strategy of nonviolence to eliminate poverty, racism, and violence in America. 
                                     </p>
-                                    <a href="#" class="btn btn-lg btn-white rounded-pill" title="Button Link">Button Link</a>
+                                    <a href="#" class="btn btn-lg btn-white rounded-pill" title="TKC Mission">TKC Mission</a>
                                 </div>
                             </div>
                             <!-- .col -->
