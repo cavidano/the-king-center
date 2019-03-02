@@ -81,6 +81,8 @@ In this file:
 
 .bg-opacity-primary-90{ @include background-opacity($primary, 0.9); }
 
+.bg-opacity-dark-90{ @include background-opacity($dark, 0.9); }
+
 ////////////////////////////////////////
 // E. Supplementary widths
 ////////////////////////////////////////
