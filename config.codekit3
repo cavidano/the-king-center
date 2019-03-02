@@ -1338,6 +1338,61 @@
 		"oAP": "/fonts.html",
 		"oF": 0
 		},
+	"/images/events/01.jpg": {
+		"ft": 16384,
+		"iS": 125764,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/events/01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/events/02.jpg": {
+		"ft": 16384,
+		"iS": 132942,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/events/02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/events/03.jpg": {
+		"ft": 16384,
+		"iS": 56026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/events/03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/events/04.jpg": {
+		"ft": 16384,
+		"iS": 106299,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/events/04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/events/Untitled-1.jpg": {
+		"ft": 16384,
+		"iS": 111383,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/events/Untitled-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/feature/01.jpg": {
 		"ft": 16384,
 		"iS": 298651,
