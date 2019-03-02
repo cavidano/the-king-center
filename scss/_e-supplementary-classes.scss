@@ -77,6 +77,10 @@ In this file:
 .bg-opacity-white-80{ @include background-opacity(black, 0.8); }
 .bg-opacity-black-90{ @include background-opacity(black, 0.9); }
 
+// Custom
+
+.bg-opacity-primary-90{ @include background-opacity($primary, 0.9); }
+
 ////////////////////////////////////////
 // E. Supplementary widths
 ////////////////////////////////////////
@@ -90,6 +94,7 @@ In this file:
 }
 
 .narrow{ max-width: $narrow-width; }
+
 .medium{ max-width: $medium-width; }
 .wide{ max-width: $wide-width; }
 
