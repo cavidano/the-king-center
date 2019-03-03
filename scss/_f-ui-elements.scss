@@ -20,52 +20,6 @@ In this file:
 // P. Fixed width sidebar
 
 */
-
-////////////////////////////////////////
-// A. Citywide header and footer
-////////////////////////////////////////
-
-#nyc-top-header,
-#nyc-bottom-footer
-{ 
-  & a, 
-    p
-    { color: $white; }
-}
-
-#nyc-top-header{ font-size: $fs-sm; }
-#nyc-bottom-footer{ font-size: $fs-md; }
-
-#nyc-top-header,
-#nyc-bottom-footer
-{ background: $black; }
-
-#nyc-top-header{
-	p,
-  a,
-  li
-  {
-    font-weight: $font-weight-bold;
-		line-height: inherit;
-	}
-}
-
-#nyc-bottom-footer{
-  hr{ @extend .opacity-20; }
-}
-
-#back-to-top{
-
-  @extend .container-fluid;
-  @extend .fixed-bottom;
-  @include opacity(0);
-
-  text-align: right;
-  transition: opacity .1s linear 0s;
-
-  &.show{ @include opacity(1); }
-
-}
  
 ////////////////////////////////////////
 // B. Local header and primary nav
@@ -86,13 +40,16 @@ $primary-nav-link-mobile-color: $body-color;
 $primary-nav-pills-link-active-color: $white;
 
 // Primary nav-pills link active (current page) background color
-$primary-nav-pills-link-active-bg-color: theme-color('primary');
+$primary-nav-pills-link-active-bg-color: $primary;
 
 // Primary nav dropdown background color
 $primary-nav-dropdown-bg-color: $light;
 
 // Primary nav dropdown items color
-$primary-nav-dropdown-item-color: theme-color('body-color');
+$primary-nav-dropdown-item-color: $body-color;
+
+// Primary nav dropdown items color
+$global-links-link-color: $body-color;
 
 #global-header{
 
@@ -112,7 +69,7 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
     color: $primary-nav-link-color;
   }
 
-  // Primary Nav (.nav-pills)
+  // Primary Nav
 
   .nav-pills{
     @extend .nav-fill;
@@ -120,8 +77,10 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
     .nav-link{
       text-transform: uppercase;
       background: $dark;
-      @extend .fs-lg;
-      @extend .py-2;
+
+      font-size: $fs-lg;
+      padding-top: $spacer-2;
+      padding-bottom: $spacer-2;
 
       @include hover-focus { 
         background-color: $dark;
@@ -172,7 +131,7 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
 
 } /* #global-header */ 
 
-// Resets dropdown functionality on mobile
+// Mobile Menu only
 
 #mobile-buttons.nav-pills{
 
@@ -207,6 +166,21 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
     li > a {@extend .text-body; }
   }
 
+}
+
+#global-links{
+
+  .extensible-list{
+    > li > a{ color: $global-links-link-color; }
+  }
+  
+  @include media-breakpoint-down(lg){
+    
+    [class^="col-"]{ margin-bottom: $spacer-3; }
+
+    .extensible-list li{ text-align: center; }
+  
+  }
 }
 
 ////////////////////////////////////////

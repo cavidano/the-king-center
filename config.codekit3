@@ -7,7 +7,7 @@
 		"uuidString": "81F5D1CB-0E8E-438C-9E46-A47D1C7FE4B0"
 		}
 	],
-"creatorBuild": "29136",
+"creatorBuild": "29156",
 "files": {
 	"/article-centered.html": {
 		"cB": 0,
@@ -1887,28 +1887,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/js/NYC-gov-forms-validation.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/NYC-gov-forms-validation-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"/js/NYC-gov-forms-validation_bkup.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/NYC-gov-forms-validation_bkup-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/js/responsive-table.js": {
 		"bF": 0,
 		"ft": 64,
@@ -2739,19 +2717,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_g-dev-tools.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/_h_nyc-gov-form.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_h_nyc-gov-form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

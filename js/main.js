@@ -1,30 +1,14 @@
 $(document).ready(function () {
-    
-    ////////////////////////////////////////
-    // Language and Search Toggles Shown
-    ////////////////////////////////////////
-
-    $('#global-search').on('shown.bs.collapse', function () {
-        document.getElementById('global-search-bar').focus();
-    }).on('show.bs.collapse', function () {
-        document.getElementById('global-search-bar').blur();
-    });
-
-    $('#global-language').on('shown.bs.collapse', function () {
-        $('.goog-te-combo').focus();
-    }).on('show.bs.collapse', function () {
-        $('.goog-te-combo').blur();
-    });
 
     ////////////////////////////////////////
     // Language and Search Toggles Shown
     ////////////////////////////////////////
 
     $('#global-search').on('show.bs.collapse', function () {
-        $('#global-language').collapse('hide');
+        $('#device-menu').collapse('hide');
     });
 
-    $('#global-language').on('show.bs.collapse', function () {
+    $('#device-menu').on('show.bs.collapse', function () {
         $('#global-search').collapse('hide');
     });
 

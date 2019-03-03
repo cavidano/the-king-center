@@ -74,7 +74,6 @@
                 </div>
                 <!-- .row -->
 
-
                 <div class="nav nav-pills offset-gutter-x d-lg-none" id="mobile-buttons">
 
                     <div class="nav-item">
@@ -95,29 +94,21 @@
                     </div>
                     <!-- .nav-item -->
                     <div class="nav-item">
-
-                        <a class="nav-link" href="#" title="Search">
+                        <a class="nav-link" href="#global-search" title="Search" data-toggle="collapse" 
+                            aria-controls="global-search" aria-expanded="false">
                             <span class="fas fa-search" title="Search" role="img"></span>
                         </a>
-
                     </div>
                     <!-- .nav-item -->
 
                 </div>
                 <!-- .nav -->
 
-                    
             </div>
             <!-- .container-fluid -->
 
         </div>
         <!-- .wrap-header -->
-
-        <div class="container-fluid bg-light collapse" id="global-language">
-            <div class="narrow py-3" aria-label="Language">
-                <div id="google_translate_element"></div>
-            </div>
-        </div>
 
         <div class="container-fluid bg-light collapse" id="global-search">
             <form class="narrow py-3" aria-label="Search" role="search">
@@ -131,107 +122,7 @@
             </form>
         </div>
 
-        <div class="container-fluid bg-dark d-none d-lg-block px-0">
-
-            <div class="wide">
-
-                <nav class="nav nav-pills" id="nav-primary" role="navigation">
-
-                    <div class="nav-item dropdown">
-
-                        <a class="nav-link dropdown-toggle" 
-                            href="#"  
-                            id="nav-item-01" 
-                            data-toggle="dropdown" 
-                            aria-haspopup="true"
-                            aria-expanded="false" 
-                            title="About">
-                                About
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="nav-item-01">
-
-                            <a class="dropdown-item" href="#" title="TKC Mission">TKC Mission</a>
-                            <a class="dropdown-item" href="#" title="Our Journey">Our Journey</a>
-                            <a class="dropdown-item" href="#" title="Dr. Bernice King">Dr. Bernice King, CEO</a>
-
-                        </div>
-
-                    </div>
-                    <!-- .nav-item -->
-
-                    <div class="nav-item dropdown">
-
-                        <a class="nav-link dropdown-toggle" 
-                            href="#" 
-                            id="nav-item-02" 
-                            data-toggle="dropdown" 
-                            aria-haspopup="true"
-                            aria-expanded="false" 
-                            title="Learn">
-                                Learn
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="nav-item-02">
-
-                            <a class="dropdown-item" href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a>
-                            <a class="dropdown-item" href="#" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a>
-                            <a class="dropdown-item" href="#" title="The King Philosophy">The King Philosophy</a>
-                            <a class="dropdown-item" href="#" title="Glossary of Nonviolence">Glossary of Nonviolence</a>
-
-                        </div>
-
-                    </div>
-                    <!-- .nav-item -->
-
-                    <div class="nav-item dropdown">
-
-                        <a class="nav-link dropdown-toggle"
-                            href="#" 
-                            id="nav-item-03" 
-                            data-toggle="dropdown" 
-                            aria-haspopup="true"
-                            aria-expanded="false" 
-                            title="News &amp; Events">
-                                News &amp; Events
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="nav-item-03">
-
-                            <a class="dropdown-item" href="#" title="TKC Blog">TKC Blog</a>
-                            <a class="dropdown-item" href="#" title="Events Calendar">Events Calendar</a>
-
-                        </div>
-
-                    </div>
-                    <!-- .nav-item -->
-
-                    <div class="nav-item">
-
-                        <a class="nav-link" href="#" title="Visit">
-                            Visit
-                        </a>
-
-                    </div>
-                    <!-- .nav-item -->
-
-                    <div class="nav-item">
-
-                        <a class="nav-link text-primary" href="#" title="Donate">
-                            Donate
-                        </a>
-
-                    </div>
-                    <!-- .nav-item -->
-
-                </nav>
-
-            </div>
-            <!-- .wide -->
-
-        </div>
-
-        <div id="device-menu" class="primary-navigation-device collapse d-lg-none">
+        <div class="primary-navigation-device collapse d-lg-none" id="device-menu">
 
             <div class="p-2 bg-light">
 
@@ -268,9 +159,11 @@
 
                             <div class="card-body">
                                 <ul class="extensible-list">
-                                    <li><a href="#" title="TKC Mission">TKC Mission</a></li>
-                                    <li><a href="#" title="Our Journey">Our Journey</a></li>
-                                    <li><a href="#" title="Dr. Bernice King">Dr. Bernice King, CEO</a></li>
+                                    <li><a href="#1" title="TKC Mission">TKC Mission</a></li>
+                                    <li><a href="#1" title="Our Journey">Our Journey</a></li>
+                                    <li><a href="#1" title="Programs &amp; Intiatives">Programs &amp; Intiatives</a></li>
+                                    <li><a href="#1" title="Dr. Bernice King, CEO">Dr. Bernice King, CEO</a></li>
+                                    <li><a href="#1" title="Staff &amp; Board">Staff &amp; Board</a></li>
                                 </ul>
                             </div>
 
@@ -292,9 +185,10 @@
                             <div class="card-body">
                                 <ul class="extensible-list">
                                     <li><a href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a></li>
-                                    <li><a href="#" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a></li>
-                                    <li><a href="#" title="The King Philosophy">The King Philosophy</a></li>
-                                    <li><a href="#" title="Glossary of Nonviolence">Glossary of Nonviolence</a></li>
+                                    <li><a href="#1" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a></li>
+                                    <li><a href="#1" title="The King Philosophy">The King Philosophy</a></li>
+                                    <li><a href="#1" title="Glossary of Nonviolence">Glossary of Nonviolence</a></li>
+                                    <li><a href="#1" title="Books &amp; Bibliography">Books &amp; Bibliography</a></li> 
                                 </ul>
                             </div>
 
@@ -312,11 +206,11 @@
                         </a>
 
                         <div class="collapse" id="panel-news-and-events" role="tabpanel" aria-labelledby="acc-button-news-and-events" data-parent="#mobile-menu-accordion">
-
+    
                             <div class="card-body">
                                 <ul class="extensible-list">
-                                    <li><a href="#" title="TKC Blog">TKC Blog</a></li>
-                                    <li><a href="#" title="Events Calendar">Events Calendar</a></li>
+                                    <li><a href="#1" title="TKC News">TKC News</a></li>
+                                    <li><a href="#1" title="Events Calendar">Events Calendar</a></li>
                                 </ul>
                             </div>
 
@@ -327,16 +221,183 @@
                     <!-- .card -->
 
                     <div class="card">
-                        <a class="card-header" href="#">Visit</a>
+
+                        <a class="card-header collapse collapsed" id="acc-button-visit" data-toggle="collapse" href="#panel-visit"
+                            role="tab" aria-expanded="false" aria-controls="panel-visit">
+                            <span class="title">Visit</span>
+                        </a>
+
+                        <div class="collapse" id="panel-visit" role="tabpanel" aria-labelledby="acc-button-visit" data-parent="#mobile-menu-accordion">
+
+                            <div class="card-body">
+                                <ul class="extensible-list">
+                                    <li><a href="#1" title="Plan Your Visit">Plan Your Visit</a></li>
+                                    <li><a href="#1" title="Virtual Tour">Virtual Tour</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- .collapse -->
+
                     </div>
                     <!-- .card -->
 
+                    <div class="card">
+
+                        <a class="card-header collapse collapsed" id="acc-button-give" data-toggle="collapse" href="#panel-give"
+                            role="tab" aria-expanded="false" aria-controls="panel-give">
+                            <span class="title">Give</span>
+                        </a>
+
+                        <div class="collapse" id="panel-give" role="tabpanel" aria-labelledby="acc-button-give" data-parent="#mobile-menu-accordion">
+
+                            <div class="card-body">
+                                <ul class="extensible-list">
+                                    <li><a href="#1" title="Donate">Donate</a></li>
+                                    <li><a href="#1" title="Volunteer">Volunteer</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- .collapse -->
+
+                    </div>
+                    <!-- .card -->
 
                 </div>
                 <!-- .accordion-group -->
 
             </nav>
                 
+        </div>
+
+        <div class="container-fluid bg-dark d-none d-lg-block px-0">
+
+            <div class="wide">
+
+                <nav class="nav nav-pills" id="nav-primary" role="navigation">
+
+                    <div class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" 
+                            href="#"  
+                            id="nav-item-01" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true"
+                            aria-expanded="false" 
+                            title="About">
+                                About
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="nav-item-01">
+
+                            <a class="dropdown-item" href="#1" title="TKC Mission">TKC Mission</a>
+                            <a class="dropdown-item" href="#1" title="Our Journey">Our Journey</a>
+                            <a class="dropdown-item" href="#1" title="Programs &amp; Intiatives">Programs &amp; Intiatives</a>
+                            <a class="dropdown-item" href="#1" title="Dr. Bernice King, CEO">Dr. Bernice King, CEO</a>
+                            <a class="dropdown-item" href="#1" title="Staff &amp; Board">Staff &amp; Board</a>
+
+                        </div>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" 
+                            href="#" 
+                            id="nav-item-02" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true"
+                            aria-expanded="false" 
+                            title="Learn">
+                                Learn
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="nav-item-02">
+    
+                            <a class="dropdown-item" href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a>
+                            <a class="dropdown-item" href="#1" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a>
+                            <a class="dropdown-item" href="#1" title="The King Philosophy">The King Philosophy</a>
+                            <a class="dropdown-item" href="#1" title="Glossary of Nonviolence">Glossary of Nonviolence</a>
+                            <a class="dropdown-item" href="#1" title="Books &amp; Bibliography">Books &amp; Bibliography</a>
+
+                        </div>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle"
+                            href="#" 
+                            id="nav-item-03" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true"
+                            aria-expanded="false" 
+                            title="News &amp; Events">
+                                News &amp; Events
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="nav-item-03">
+
+                            <a class="dropdown-item" href="#1" title="TKC News">TKC News</a>
+                            <a class="dropdown-item" href="#1" title="Events Calendar">Events Calendar</a>
+
+                        </div>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" 
+                            href="#" 
+                            id="nav-item-04" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true"
+                            aria-expanded="false" 
+                            title="Visit">
+                                Visit
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="nav-item-04">
+
+                            <a class="dropdown-item" href="#1" title="Plan Your Visit">Plan Your Visit</a>
+                            <a class="dropdown-item" href="#1" title="Virtual Tour">Virtual Tour</a>
+
+                        </div>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle text-primary" 
+                            href="#" 
+                            id="nav-item-05" 
+                            data-toggle="dropdown" 
+                            aria-haspopup="true"
+                            aria-expanded="false" 
+                            title="Give">
+                                Give
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="nav-item-05">
+
+                            <a class="dropdown-item" href="#1" title="Dotate">Dotate</a>
+                            <a class="dropdown-item" href="#1" title="Volunteer">Volunteer</a>
+
+                        </div>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                </nav>
+
+            </div>
+            <!-- .wide -->
+
         </div>
 
     </header>
@@ -888,16 +949,16 @@
                     <img class="mb-2" src="./images/the-king-center-logo-stacked.svg" alt="">
                     <ul class="extensible-list horizontal justify-content-center fs-md">
                         <li>
-                            <a class="text-body" href="#1" title="Dgital Archives">Digital Archives</a>
+                            <a href="#1" title="Dgital Archives">Digital Archives</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#1" title="Camp Now">Camp Now</a>
+                            <a href="#1" title="Camp Now">Camp Now</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#1" title="Store">Store</a>
+                            <a href="#1" title="Store">Store</a>
                         </li>
                         <li>
-                            <a class="text-body" href="#1" title="Contact">Contact</a>
+                            <a href="#1" title="Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -905,43 +966,68 @@
 
                 <div class="row matrix-gutter" role="navigation">
 
-                    <div class="col-lg">
+                    <div class="col-xl">
 
                         <ul class="extensible-list fs-md">
                             <li class="h5 f-sans-serif mb-2">About</li>
-                            <li><a class="text-body" href="#" title="TKC Mission">TKC Mission</a></li>
-                            <li><a class="text-body" href="#" title="Our Journey">Our Journey</a></li>
-                            <li><a class="text-body" href="#" title="Dr. Bernice King">Dr. Bernice King</a></li>
+                            <li><a href="#1" title="TKC Mission">TKC Mission</a></li>
+                            <li><a href="#1" title="Our Journey">Our Journey</a></li>
+                            <li><a href="#1" title="Programs &amp; Intiatives">Programs &amp; Intiatives</a></li>
+                            <li><a href="#1" title="Dr. Bernice King, CEO">Dr. Bernice King, CEO</a></li>
+                            <li><a href="#1" title="Staff &amp; Board">Staff &amp; Board</a></li>
                         </ul>
 
                     </div>
                     <!-- .col -->
 
-                    <div class="col-lg">
+                    <div class="col-xl">
 
                         <ul class="extensible-list fs-md">
                             <li class="h5 f-sans-serif mb-2">Learn</li>
-                            <li><a class="text-body" href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a></li>
-                            <li><a class="text-body" href="#" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a></li>
-                            <li> <a class="text-body" href="#" title="The King Philosophy">The King Philosophy</a></li>
-                            <li><a class="text-body" href="#" title="Glossary of Nonviolence">Glossary of Nonviolence</a></li>
+                            <li><a href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a></li>
+                            <li><a href="#1" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a></li>
+                            <li><a href="#1" title="The King Philosophy">The King Philosophy</a></li>
+                            <li><a href="#1" title="Glossary of Nonviolence">Glossary of Nonviolence</a></li>
+                            <li><a href="#1" title="Books &amp; Bibliography">Books &amp; Bibliography</a></li>
                         </ul>
 
                     </div>
                     <!-- .col -->
 
-                    <div class="col-lg">
+                    <div class="col-xl">
 
                         <ul class="extensible-list fs-md">
                             <li class="h5 f-sans-serif mb-2">News &amp; Events</li>
-                            <li><a class="text-body" href="#" title="TKC Blog">TKC Blog</a></li>
-                            <li><a class="text-body" href="#" title="Events Calendar">Events Calendar</a></li>
+                            <li><a href="#1" title="TKC News">TKC News</a></li>
+                            <li><a href="#1" title="Events Calendar">Events Calendar</a></li>
                         </ul>
 
                     </div>
                     <!-- .col -->
 
-                    <div class="col-lg">
+                    <div class="col-xl">
+
+                        <ul class="extensible-list fs-md">
+                            <li class="h5 f-sans-serif mb-2">Visit</li>
+                            <li><a href="#1" title="Plan Your Visit">Plan Your Visit</a></li>
+                            <li><a href="#1" title="Virtual Tour">Virtual Tour</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- .col -->
+
+                    <div class="col-xl">
+
+                        <ul class="extensible-list fs-md">
+                            <li class="h5 f-sans-serif mb-2">Give</li>
+                            <li><a href="#1" title="Donate">Donate</a></li>
+                            <li><a href="#1" title="Volunteer">Volunteer</a></li>
+                        </ul>
+
+                    </div>
+                    <!-- .col -->
+
+                    <div class="col-xl d-none">
 
                         <ul class="extensible-list fs-md">
                             <li class="h5 f-sans-serif mb-2">Visit</li>
@@ -953,7 +1039,7 @@
                             </li>
                             <li class="text-muted">
                                 
-                                    <a class="text-muted" href="#1" title="Map and Direction"> Plan Your Visit </a> | 
+                                    <a class="text-muted" href="#1" title="Map and Direction">Plan Your Visit</a> | 
                                     <a class="text-muted" href="#1" title="View Map">View Map</a>
 
                             </li>
