@@ -55,28 +55,6 @@ body{ @extend .f-serif; }
     }
 }
 
-.nav.nav-pills[role="tablist"]{
-
-    .nav-link:not(.active){ color: $text-muted; }
-
-    .nav-link.active{ @extend .shadow-sm; }
-}
-
-.nav.nav-tabs[role="tablist"]{
-
-    .nav-link:not(.active){ color: $text-muted; }
-
-    .nav-link.active{ 
-        color: theme-color("primary");
-        font-weight: $font-weight-bold;
-    }
-}
-
-
-
-
-
-
 // Apect Ratio
 
 .aspect-ratio-parent,
@@ -117,6 +95,9 @@ body{ @extend .f-serif; }
     }
 }
 
+
+// Forms
+
 #global-search,
 #newsletter-sign-up{
 
@@ -126,10 +107,6 @@ body{ @extend .f-serif; }
         @extend .shadow-sm;
     }
 }
-
-
-
-
 
 // Articles
 

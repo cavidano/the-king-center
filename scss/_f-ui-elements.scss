@@ -116,8 +116,11 @@ $global-links-link-color: $body-color;
   }
 
   // Improve .dropdown-menu when present within .nav-pills
+  
+  #nav-primary{
 
-  #nav-primary.nav-pills .dropdown-menu{
+  
+  .nav-pills .dropdown-menu{
     width: 100%;
     left: 0;
     right: 0;
@@ -126,6 +129,7 @@ $global-links-link-color: $body-color;
     // When dropdowns are flush left or right, remove Bootrap transform and reposition y axis
     transform: none !important;
     top: 100% !important;
+  }
   }
 
 
