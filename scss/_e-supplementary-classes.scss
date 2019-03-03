@@ -73,8 +73,8 @@ In this file:
 .bg-opacity-black-40{ @include background-opacity(black, 0.4); }
 .bg-opacity-black-50{ @include background-opacity(black, 0.5); }
 .bg-opacity-black-60{ @include background-opacity(black, 0.6); }
-.bg-opacity-white-70{ @include background-opacity(black, 0.7); }
-.bg-opacity-white-80{ @include background-opacity(black, 0.8); }
+.bg-opacity-black-70{ @include background-opacity(black, 0.7); }
+.bg-opacity-black-80{ @include background-opacity(black, 0.8); }
 .bg-opacity-black-90{ @include background-opacity(black, 0.9); }
 
 // Custom

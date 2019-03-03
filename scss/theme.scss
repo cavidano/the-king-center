@@ -110,19 +110,6 @@ body{ @extend .f-serif; }
 
 // Articles
 
-.container.extend-on-mobile{
-
-    @include media-breakpoint-down(lg) {
-        max-width: 100%;
-    }
-
-    @include media-breakpoint-up(xl) {
-        .mx-n2,
-        .narrow
-        { margin-left: unset !important; }
-
-        > .narrow{ max-width: unset; }
-
-        #aside{ border-left: 1px solid $border-color; }
-    }
+@include media-breakpoint-up(lg) {
+    #aside{ border-left: 1px solid $border-color; }
 }
