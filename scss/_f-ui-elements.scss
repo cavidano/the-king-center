@@ -119,30 +119,34 @@ $global-links-link-color: $body-color;
   
   #nav-primary{
 
+    .nav-pills .dropdown-menu{
+      width: 100%;
+      left: 0;
+      right: 0;
+      margin: 0;
+      
+      // When dropdowns are flush left or right, remove Bootrap transform and reposition y axis
+      transform: none !important;
+      top: 100% !important;
+    }
   
-  .nav-pills .dropdown-menu{
-    width: 100%;
-    left: 0;
-    right: 0;
-    margin: 0;
-    
-    // When dropdowns are flush left or right, remove Bootrap transform and reposition y axis
-    transform: none !important;
-    top: 100% !important;
   }
-  }
-
 
 } /* #global-header */ 
 
 // Mobile Menu only
 
-#mobile-buttons.nav-pills{
+#mobile-buttons{
+  padding-top: $spacer-2;
+  padding-bottom: $spacer-2;
+  
+  a{
+    color: $white;
+    font-size: $fs-lg;
 
-  .nav-link{
-
-    @extend .py-1;
-    
+    &[aria-expanded="true"]{
+      color: $secondary;
+    }  
   }
 }
 
