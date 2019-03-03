@@ -80,7 +80,7 @@ $primary-nav-font-weight: $font-weight-bold;
 $primary-nav-link-color: $white;
 
 //Primary nav link (mobile) color
-$primary-nav-link-mobile-color: $primary;
+$primary-nav-link-mobile-color: $body-color;
 
 // Primary nav-pills link active (current page) color
 $primary-nav-pills-link-active-color: $white;
@@ -139,7 +139,7 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
       }
     }
 
-  } // .nav-pills
+  }
 
   // Set .dropdown-menu styles
 
@@ -177,13 +177,16 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
 #mobile-buttons.nav-pills{
 
   .nav-link{
+
+    @extend .py-1;
+    
   }
 }
 
 #mobile-menu-accordion{
 
   .card{
-    border-bottom: $border-width solid $border-color;
+    border-top: $border-width solid $border-color;
   }
   
   .card-header{
