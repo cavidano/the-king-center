@@ -5,10 +5,10 @@ $(document).ready(function () {
     ////////////////////////////////////////
 
     $('#global-search').on('show.bs.collapse', function () {
-        $('#device-menu').collapse('hide');
+        $('#mobile-menu').collapse('hide');
     });
 
-    $('#device-menu').on('show.bs.collapse', function () {
+    $('#mobile-menu').on('show.bs.collapse', function () {
         $('#global-search').collapse('hide');
     });
 

@@ -76,7 +76,7 @@
 
         <div class="container-fluid d-flex d-lg-none align-items-center justify-content-between bg-dark" id="mobile-buttons">
 
-            <a class="no-btn-style" href="#device-menu" data-toggle="collapse" aria-controls="device-menu" aria-expanded="false">
+            <a class="no-btn-style" href="#mobile-menu" data-toggle="collapse" aria-controls="mobile-menu" aria-expanded="false">
                 <span class="fas fa-bars" title="Menu" role="img"></span>
             </a>
 
@@ -92,22 +92,7 @@
         </div>
         <!-- #mobile-buttons -->
 
-        <div class="container-fluid bg-light collapse" id="global-search">
-            <form class="narrow py-3" aria-label="Search" role="search">
-                <div class="input-group">
-                    <label class="sr-only" for="global-search-bar">Search</label>
-                    <input class="form-control form-control-lg border-0" id="global-search-bar" placeholder="Search">
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-primary btn-lg">
-                                <span class="fas fa-arrow-right" title="Go" role="img"></span>
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <!-- #global-search -->
-
-        <div class="primary-navigation-device collapse d-lg-none" id="device-menu">
+        <div class="primary-navigation-device collapse d-lg-none" id="mobile-menu">
 
             <div class="p-2 bg-light">
 
@@ -256,6 +241,21 @@
                 
         </div>
 
+        <div class="container-fluid bg-light collapse" id="global-search">
+            <form class="narrow py-3" aria-label="Search" role="search">
+                <div class="input-group">
+                    <label class="sr-only" for="global-search-bar">Search</label>
+                    <input class="form-control form-control-lg border-0" id="global-search-bar" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-primary btn-lg">
+                                <span class="fas fa-arrow-right" title="Go" role="img"></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- #global-search -->
+
         <div class="container-fluid bg-dark d-none d-lg-block px-0" id="nav-primary">
 
             <div class="wide">
@@ -393,18 +393,27 @@
         <section class="featured-panel responsive-lg">
 
             <div class="card bg-black">
-                <img class="card-img show-on-mobile" src="./images/feature/01.jpg" alt="Card image">
+                <div class="overlay-gradient-x-black">
+                    <img class="card-img" src="./images/feature/01.jpg" alt="Card image">
+                </div>
                 <div class="card-img-overlay d-flex">
-                    <div class="container align-self-center">
+                    <div class="container-fluid wide align-self-center">
                         <div class="row wide text-white">
-                            <div class="col-lg-5 col-xxl-4">
-                                <h1 class="card-title display-4 text-primary">He Had A Dream. You Were In It.</h1>
-                                <div class="bg-opacity-black-50 text-white p-2 offset-gutter-x">
+                            <div class="col-lg-auto">
 
-                                    <p>As long as poverty, injustice and inequality persist, none of us can truly rest.</p>
+                                <div class="narrow">
 
-                                    <a href="#" class="btn btn-white rounded-pill" title="TKC Mission">TKC Mission</a>
+                                <h1 class="card-title display-4 text-primary text-shadow">
+                                    <span class="d-block">He Had A Dream.</span> 
+                                    <span class="d-block">You Were In It.</span>                                     
+                                </h1>
+                                
+                                <p class="text-shadow">As long as poverty, injustice and inequality persist, none of us can truly rest.</p>
+
+                                <a href="#" class="btn btn-white rounded-pill" title="TKC Mission">TKC Mission</a>
                                 </div>
+
+                            
                             </div>
                             <!-- .col -->
                         </div>
