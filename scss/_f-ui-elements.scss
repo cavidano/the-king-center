@@ -79,11 +79,8 @@ $primary-nav-font-weight: $font-weight-bold;
 // Primary nav link color
 $primary-nav-link-color: $white;
 
-// Primary nav-right link active (current page) color
-$primary-nav-right-link-active-color: theme-color('secondary');
-
-// Primary nav (mobile-only) link active (current page) color
-$primary-nav-mobile-link-active-color: theme-color('secondary');
+//Primary nav link (mobile) color
+$primary-nav-link-mobile-color: $primary;
 
 // Primary nav-pills link active (current page) color
 $primary-nav-pills-link-active-color: $white;
@@ -92,7 +89,7 @@ $primary-nav-pills-link-active-color: $white;
 $primary-nav-pills-link-active-bg-color: theme-color('primary');
 
 // Primary nav dropdown background color
-$primary-nav-dropdown-bg-color: white;
+$primary-nav-dropdown-bg-color: $light;
 
 // Primary nav dropdown items color
 $primary-nav-dropdown-item-color: theme-color('body-color');
@@ -113,36 +110,21 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
   .nav-link{
     font-weight: $primary-nav-font-weight;
     color: $primary-nav-link-color;
-    &.active{
-      text-decoration: underline;
-    }
-  }
-  
-  // Set primary nav color and active states (.nav-right only)
-
-  .nav-right{
-    .nav-link{
-      &.active { color: $primary-nav-right-link-active-color; }
-    }
   }
 
   // Primary Nav (.nav-pills)
 
   .nav-pills{
-    // border-left: $border-width solid $black;
-    // @extend .offset-border-x;
     @extend .nav-fill;
     
-
     .nav-link{
-      // border-right: $border-width solid $black;
       text-transform: uppercase;
       background: $dark;
       @extend .fs-lg;
       @extend .py-2;
 
       @include hover-focus { 
-        background-color: $black;
+        background-color: $dark;
       }
       
       &.active { 
@@ -192,50 +174,36 @@ $primary-nav-dropdown-item-color: theme-color('body-color');
 
 // Resets dropdown functionality on mobile
 
-#device-menu{
+#mobile-buttons.nav-pills{
 
   .nav-link{
-    padding-top: $spacer-1;
-    padding-bottom: $spacer-1;
-
-    &.active { color: $primary-nav-mobile-link-active-color; }
-
-    @if $enable-caret {
-      &.dropdown-toggle{
-        &[aria-expanded="true"]::after {
-          @include caret-up;
-        }
-      }
-    } // end if
   }
+}
 
-  .dropdown-menu.show{
-    position: static !important;
-    background: $transparent;
+#mobile-menu-accordion{
 
-    -webkit-transform: none !important; /* Safari and Chrome */
-       -moz-transform: none !important; /* Firefox */
-        -ms-transform: none !important; /* IE 9 */
-         -o-transform: none !important; /* Opera */
-            transform: none !important;
+  .card{
+    border-bottom: $border-width solid $border-color;
+  }
+  
+  .card-header{
+    color: $primary-nav-link-mobile-color;
 
-    width: 100%;
-    padding: 0 $spacer-4;
-    margin: 0;
-
-    a.dropdown-item{
-      width: auto !important;
-      color: currentColor;
-      padding: 0;
-      margin-bottom: $spacer-1;
-      float: left;
-
-      &:hover,
-      &:active,
-      &:visited
-      { background: none; }
+    &[aria-expanded="true"]{
+      background-color: $white;
     }
+
   }
+
+  .card-body{
+    background-color: $white;
+  }
+
+  .extensible-list{ 
+    font-size: $fs-md;
+    li > a {@extend .text-body; }
+  }
+
 }
 
 ////////////////////////////////////////

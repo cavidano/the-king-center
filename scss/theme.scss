@@ -35,7 +35,8 @@ In this file:
 .display-2,
 .display-3,
 .display-4,
-#nav-primary .nav-link
+#nav-primary .nav-link,
+#mobile-menu-accordion .card-header
 { @extend .f-sans-serif; }
 
 body{ @extend .f-serif; }

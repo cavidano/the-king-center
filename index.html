@@ -45,62 +45,28 @@
                     </div>
                     <!-- .col -->
 
-                    <div class="col-lg-auto">
+                    <div class="col-auto d-none d-lg-block">
 
-                        <!-- row 02 -->
-                        <div class="row">
-
-                            <!-- Menu Toggle -->
-                            <div class="col d-lg-none">
-
-                                <div class="offset-gutter-x">
-                                    <button class="btn btn-block btn-lg btn-dark text-white text-uppercase f-sans-serif has-icon" type="button" data-toggle="collapse" data-target="#device-menu"
-                                        aria-controls="device-menu" aria-expanded="false" aria-label="Toggle navigation">
-                                        <span class="fas fa-bars"role="img"></span>
-                                        <span class="title mx-1" role="img">Menu</span>
-                                    </button>
-                                </div>
-
-                            </div>
-                            <!-- .col -->
-
-                            <div class="col d-lg-none">
-                                <div class="offset-gutter-x">
-                                    <a class="btn btn-block btn-lg btn-dark text-primary text-uppercase f-sans-serif">
-                                        Donate
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- .col -->
-
-                            <div class="col-auto d-none d-lg-block">
-
-                                <ul class="extensible-list horizontal fs-md">
-                                    <li>
-                                        <a class="text-body" href="#1" title="Dgital Archives">Digital Archives</a>
-                                    </li>
-                                    <li>
-                                        <a class="text-body" href="#1" title="Camp Now">Camp Now</a>
-                                    </li>
-                                    <li>
-                                        <a class="text-body" href="#1" title="Store">Store</a>
-                                    </li>
-                                    <li>
-                                        <a class="text-body" href="#1" title="Contact">Contact</a>
-                                    </li>
-                                    <li>
-                                        <button class="no-btn-style" type="button" data-toggle="collapse" data-target="#global-search" aria-controls="global-search"
-                                            aria-expanded="false">
-                                            <span class="fas fa-search" title="Search" role="img"></span>
-                                        </button>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <!-- .col -->
-
-                        </div>
-                        <!-- .row -->
+                        <ul class="extensible-list horizontal fs-md">
+                            <li>
+                                <a class="text-body" href="#1" title="Dgital Archives">Digital Archives</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#1" title="Camp Now">Camp Now</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#1" title="Store">Store</a>
+                            </li>
+                            <li>
+                                <a class="text-body" href="#1" title="Contact">Contact</a>
+                            </li>
+                            <li>
+                                <button class="no-btn-style" type="button" data-toggle="collapse" data-target="#global-search"
+                                    aria-controls="global-search" aria-expanded="false">
+                                    <span class="fas fa-search" title="Search" role="img"></span>
+                                </button>
+                            </li>
+                        </ul>
 
                     </div>
                     <!-- .col -->
@@ -108,6 +74,39 @@
                 </div>
                 <!-- .row -->
 
+
+                <div class="nav nav-pills offset-gutter-x d-lg-none" id="mobile-buttons">
+
+                    <div class="nav-item">
+
+                        <a class="nav-link" href="#device-menu" data-toggle="collapse" aria-controls="device-menu" aria-expanded="false">
+                            <span class="fas fa-bars" title="Menu" role="img"></span>
+                        </a>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                    <div class="nav-item">
+
+                        <a class="nav-link text-primary text-uppercase f-sans-serif" href="#" title="Donate">
+                            Donate
+                        </a>
+
+                    </div>
+                    <!-- .nav-item -->
+                    <div class="nav-item">
+
+                        <a class="nav-link" href="#" title="Search">
+                            <span class="fas fa-search" title="Search" role="img"></span>
+                        </a>
+
+                    </div>
+                    <!-- .nav-item -->
+
+                </div>
+                <!-- .nav -->
+
+                    
             </div>
             <!-- .container-fluid -->
 
@@ -226,6 +225,7 @@
                     <!-- .nav-item -->
 
                 </nav>
+
             </div>
             <!-- .wide -->
 
@@ -233,73 +233,91 @@
 
         <div id="device-menu" class="primary-navigation-device collapse d-lg-none">
             
-            <nav class="nav d-flex flex-column py-3 bg-dark" role="navigation">
+            <nav>
 
-                <div class="nav-item dropdown">
+                <div class="accordion-group" id="mobile-menu-accordion" role="tablist">
 
-                    <a class="nav-link dropdown-toggle"
-                        href="#" 
-                        id="nav-item-01-b"
-                        data-toggle="dropdown" 
-                        aria-expanded="false"
-                        title="About">
-                            About
-                    </a>
+                    <div class="card">
 
-                    <div class="dropdown-menu" aria-labelledby="nav-item-01-b">
+                        <a class="card-header collapse collapsed" id="acc-button-about" data-toggle="collapse" href="#panel-about"
+                            role="tab" aria-expanded="false" aria-controls="panel-about">
+                            <span class="title">About</span>
+                        </a>
 
-                        <a class="dropdown-item text-white" href="#" title="TKC Mission">TKC Mission</a>
-                        <a class="dropdown-item text-white" href="#" title="Our Journey">Our Journey</a>
-                        <a class="dropdown-item text-white" href="#" title="Dr. Bernice King">Dr. Bernice King, CEO</a>
+                        <div class="collapse" id="panel-about" role="tabpanel" aria-labelledby="acc-button-about"
+                            data-parent="#mobile-menu-accordion">
 
-                    </div>
+                            <div class="card-body">
+                                <ul class="extensible-list">
+                                    <li><a href="#" title="TKC Mission">TKC Mission</a></li>
+                                    <li><a href="#" title="Our Journey">Our Journey</a></li>
+                                    <li><a href="#" title="Dr. Bernice King">Dr. Bernice King, CEO</a></li>
+                                </ul>
+                            </div>
 
-                </div>
-
-                <div class="nav-item dropdown">
-
-                    <a class="nav-link dropdown-toggle"
-                        href="#" 
-                        id="nav-item-02-b"
-                        data-toggle="dropdown" 
-                        aria-expanded="false"
-                        title="Learn">
-                            Learn
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="nav-item-02-b">
-
-                        <a class="dropdown-item text-white" href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a>
-                        <a class="dropdown-item text-white" href="#" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a>
-                        <a class="dropdown-item text-white" href="#" title="The King Philosophy">The King Philosophy</a>
-                        <a class="dropdown-item text-white" href="#" title="Glossary of Nonviolence">Glossary of Nonviolence</a>
+                        </div>
+                        <!-- .collapse -->
 
                     </div>
+                    <!-- .card -->
 
-                </div>
-    
-                <div class="nav-item dropdown">
+                    <div class="card">
 
-                    <a class="nav-link dropdown-toggle"
-                        href="#" 
-                        id="nav-item-03-b"
-                        data-toggle="dropdown" 
-                        aria-expanded="false"
-                        title="News &amp; Events">
-                            News &amp; Events
-                    </a>
+                        <a class="card-header collapse collapsed" id="acc-button-learn" data-toggle="collapse" href="#panel-learn"
+                            role="tab" aria-expanded="false" aria-controls="panel-learn">
+                            <span class="title">Learn</span>
+                        </a>
 
-                    <div class="dropdown-menu" aria-labelledby="nav-item-03-b">
+                        <div class="collapse" id="panel-learn" role="tabpanel" aria-labelledby="acc-button-learn" data-parent="#mobile-menu-accordion">
 
-                        <a class="dropdown-item text-white" href="#" title="TKC Blog">TKC Blog</a>
-                        <a class="dropdown-item text-white" href="#" title="Events Calendar">Events Calendar</a>
+                            <div class="card-body">
+                                <ul class="extensible-list">
+                                    <li><a href="learn-dr-martin-luther-king-jr.html" title="Dr. Martin Luther King, Jr.">Dr. Martin Luther King, Jr.</a></li>
+                                    <li><a href="#" title="Mrs. Coretta Scott King">Mrs. Coretta Scott King</a></li>
+                                    <li><a href="#" title="The King Philosophy">The King Philosophy</a></li>
+                                    <li><a href="#" title="Glossary of Nonviolence">Glossary of Nonviolence</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- .collapse -->
 
                     </div>
+                    <!-- .card -->
+
+                    <div class="card">
+
+                        <a class="card-header collapse collapsed" id="acc-button-news-and-events" data-toggle="collapse" href="#panel-news-and-events"
+                            role="tab" aria-expanded="false" aria-controls="panel-news-and-events">
+                            <span class="title">News &amp; Events</span>
+                        </a>
+
+                        <div class="collapse" id="panel-news-and-events" role="tabpanel" aria-labelledby="acc-button-news-and-events" data-parent="#mobile-menu-accordion">
+
+                            <div class="card-body">
+                                <ul class="extensible-list">
+                                    <li><a href="#" title="TKC Blog">TKC Blog</a></li>
+                                    <li><a href="#" title="Events Calendar">Events Calendar</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- .collapse -->
+
+                    </div>
+                    <!-- .card -->
+
+                    <div class="card">
+                        <a class="card-header" href="#">Visit</a>
+                    </div>
+                    <!-- .card -->
+
 
                 </div>
+                <!-- .accordion-group -->
 
             </nav>
-        
+                
         </div>
 
     </header>
