@@ -1448,6 +1448,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/feature/06.jpg": {
+		"ft": 16384,
+		"iS": 368103,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/feature/06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/feature/bridge-lights.jpg": {
 		"ft": 16384,
 		"iS": 109996,
@@ -1877,6 +1888,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/index-mlk-observance.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index-mlk-observance.html",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
